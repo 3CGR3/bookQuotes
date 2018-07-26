@@ -1,42 +1,44 @@
-h2 {
-  color: #5BD29B;
-}
-
-p {
-  color: #3ACEB4;
-}
-
 *{
-  background-color: #45837E;
-  font-family: 'Comic Sans', sans-serif;
-  font-weight: 100;
-  letter-spacing: 1px;
+  font-family: "Merienda";
   text-align: center;
+  margin: 0;
+  box-sizing: border-box;
 }
+html {
+  border-left: 10px solid #FFFFFF;
+  border-right: 10px solid #FFFFFF;
+}
+h1, h2, p {
+  color: #FFFFFF;
+  padding: 4px;
+}
+
 ul{
   text-decoration: none;
-
 }
-.main {
-  width: 100%;
-  height: auto;
+.intro {
+  margin: 10px;
 }
 
 .aboutDivs {
   width: 100%;
-  margin: 0;
 }
-
 .about {
   display: inline-block;
   float: left;
-  width: 33%;
-  margin: 0;
+  width: 31.33%;
+  border-style: solid 15px;
+  margin: 1%;
+  min-height: 450px;
 }
 
+body{
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg");
+  background-size: cover;
+}
 
-
-
-h1 {
-  font-size: 50px;
+.line{
+  border-bottom: solid 1px #404040;
+  margin-left: 15%;
+  margin-right: 15%;
 }
